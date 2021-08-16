@@ -90,6 +90,6 @@ Em caso afirmativo, obtenha o valor do email e a senha desse email.
 A última etapa é verificar se a senha fornecida corresponde à senha do usuário com `bcrypt.checkpw(password.encrypt('utf-8)`, passwordcheck)
 
 Em caso afirmativo, redirecione para logado, pois esse usuário em particular irá solicitar uma mensagem correspondente para ele.
-![Full Stack com Python e Mongo DB](https://user-images.githubusercontent.com/31749933/129621236-4512da22-a37a-46f8-a2bd-3f38a0c0febb.jpg)
+
 ### Sair
 Da mesma forma que antes, apenas os usuários que estão logados podem fazer logout. E para liberar uma variável de sessão, use o método pop ().
